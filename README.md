@@ -1,3 +1,5 @@
+![Alt test](Docker_image.jpg)
+
 ---
 Here's a draft README file for your project based on the information you provided:
 
