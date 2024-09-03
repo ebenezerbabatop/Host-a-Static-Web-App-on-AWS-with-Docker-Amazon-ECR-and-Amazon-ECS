@@ -1,10 +1,6 @@
-![Alt test](Docker_image.jpg)
+![Alt test](Docker.jpg)
 
 ---
-Here's a draft README file for your project based on the information you provided:
-
----
-
 # Static Web App Deployment on AWS
 
 This repository contains the reference diagram and deployment scripts for hosting a static web application using AWS services, Docker, and GitHub. The architecture leverages Amazon ECS, Amazon ECR, and other AWS components to ensure high availability, scalability, and security.
@@ -74,3 +70,23 @@ The repository includes deployment scripts for:
 - ECS cluster and service configuration
 - Load balancer setup
 - DNS and SSL configuration
+
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Follow the AWS documentation to create the required resources (VPC, subnets, Internet Gateway, etc.) as outlined in the architecture overview.
+3. Use the provided scripts to set up the WordPress application on EC2 instances within the VPC.
+4. Configure the Auto Scaling Group, Load Balancer, and other services as per the architecture.
+5. Access the WordPress website through the Load Balancer's DNS name.
+
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests. Your feedback and improvements are welcome!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
